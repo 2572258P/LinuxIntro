@@ -4,12 +4,24 @@ from tornado.httpserver import HTTPServer
 from tornado.options import define, options
 from logzero import logger
 
+"""
+Hello there?
+"""
+
 #from projecthandler import ProjectHandler, VersionHandler, ProductHandler, DataFrameHandler
 #from ifcfilehandler import IfcFileHandler
 #import mongo
 from pymodm.connection import connect
 import settings as s
 from handlers import project, ifcfile, calculation, product
+
+"""
+wow this commen
+wow the world
+wow the woman
+wow my life
+kiss my ass
+"""
 
 
 define('version', default=1)
